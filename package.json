@@ -1,6 +1,6 @@
 {
   "name": "plan-waveform",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "plan plugin for generating waveforms from audio files",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "devDependencies": {
     "plan": "0.0.1",
     "mocha": "~1.7.3"
+  },
+  "dependencies": {
+    "waveform": "~0.5.2"
   }
 }
