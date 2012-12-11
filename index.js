@@ -12,7 +12,7 @@ module.exports = {
       'color-center': self.options.colorCenter,
       'color-outer': self.options.colorOuter,
     };
-    tempPath = self.context.tempPath;
+    var tempPath = self.context.tempPath;
     delete self.context.tempPath;
     waveform(tempPath, tempPngFile, waveformOptions, function(err) {
       if (err) {
