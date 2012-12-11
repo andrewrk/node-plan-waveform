@@ -4,7 +4,7 @@ module.exports = {
   cpuBound: true,
   start: function(done) {
     var self = this;
-    var tempPngFile = self.context.makeTempFile({suffix: '.png'});
+    var tempPngFile = self.context.makeTemp({suffix: '.png'});
     var waveformOptions = {
       width: self.options.width,
       height: self.options.height,
