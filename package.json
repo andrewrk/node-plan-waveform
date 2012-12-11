@@ -1,6 +1,6 @@
 {
   "name": "plan-waveform",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "plan plugin for generating waveforms from audio files",
   "main": "index.js",
   "scripts": {
