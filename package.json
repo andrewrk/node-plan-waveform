@@ -22,6 +22,6 @@
     "mocha": "~1.7.3"
   },
   "dependencies": {
-    "waveform": "~0.5.2"
+    "waveform": "~0.6.0"
   }
 }
